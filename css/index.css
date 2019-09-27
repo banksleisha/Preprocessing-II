@@ -172,19 +172,20 @@ img {
   display: flex;
   flex-direction: row;
   width: 100%;
+  height: 60px;
   background: #FFFFFF;
   top: 0;
   z-index: 2;
   border-bottom: 2px dashed #C0C0C0;
 }
 .navigation {
-  display: flex;
-  align-items: right;
+  text-align: right;
 }
 nav a {
   padding: 20px;
   text-decoration: none;
   color: #212529;
+  justify-content: space-between;
 }
 .footer {
   width: 100%;
@@ -206,6 +207,11 @@ nav a {
   background-color: #17A2B8;
   color: #FFFFFF;
   cursor: pointer;
+}
+.home .welcome-content {
+  border-bottom: 2px dashed #C0C0C0;
+  width: 100%;
+  padding-top: 10px;
 }
 .home .content-section {
   margin: 30px 0;
