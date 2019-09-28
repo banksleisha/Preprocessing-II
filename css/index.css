@@ -260,7 +260,7 @@ nav a {
   margin-bottom: 30px;
 }
 @media screen {
-  .home {
+  .home .home {
     padding: 10px;
     display: flex;
     flex-direction: column;
