@@ -169,13 +169,12 @@ img {
   margin: 0 auto;
 }
 .header-container {
-  display: flex;
-  flex-direction: row;
   width: 100%;
-  height: 60px;
-  background: #FFFFFF;
-  top: 0;
-  z-index: 2;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.8rem;
   border-bottom: 2px dashed #C0C0C0;
 }
 .navigation {
@@ -207,6 +206,9 @@ nav a {
   background-color: #17A2B8;
   color: #FFFFFF;
   cursor: pointer;
+}
+.home {
+  width: 80%;
 }
 .home .welcome-content {
   border-bottom: 2px dashed #C0C0C0;
